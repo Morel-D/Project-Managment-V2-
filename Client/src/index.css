@@ -27,6 +27,12 @@ code {
   height: auto;
 }
 
+
+#user {
+  width: 30%;
+  height: auto;
+}
+
 #text {
   color: rgb(75, 75, 30);
 }
@@ -34,4 +40,13 @@ code {
 #pro-btn{
   border-style: solid;
   border-color: rgba(255, 0, 0, 0);
+}
+
+#link {
+  text-decoration: none;
+}
+
+#title {
+   color: rgb(83, 83, 36);
+   font-family: Arial, Helvetica, sans-serif;
 }

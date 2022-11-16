@@ -1,7 +1,9 @@
 import Header from "./Components/Pages/Header";
 import Sidebar from "./Components/Pages/Sidebar";
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import Dashboard from "./Components/Pages/Dashboard";
+import Dashboard from "./Components/Dashboard/Dashboard";
+import Projects from "./Components/Projects/Porjects";
+import Team from "./Components/Teams/Teams";
 
 
 // col col-2 bg-white shadow-sm p-3 bg-body
@@ -21,7 +23,11 @@ function App() {
             </div>
 
             <div className="Content">
-              <Dashboard />
+              <Routes>
+                <Route exact path="/" element={<Dashboard />} />
+                <Route exact path="/Projects" element={<Projects />} />
+                <Route exact path="/Teams" element ={<Team />} />
+              </Routes>
             </div>
           </div>
         </div>

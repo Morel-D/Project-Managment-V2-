@@ -6,7 +6,7 @@ const Header = () => {
             <div className="profile-view">
                 <div class="dropdown-center">
                     <button id="pro-btn" className="col-3  text-end btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false" type="button">
-                    <label htmlFor="btn" > <img id="profile-img" src={shoto} className="img-fluid rounded-circle" /> <b id="text">Shoto Todoroki </b> </label> 
+                    <label htmlFor="btn" >  <img id="profile-img" src={shoto} className="img-fluid rounded-circle" /> <b id="text">Shoto Todoroki </b> </label> 
                     </button>
                     <ul class="dropdown-menu">
                        <li><a class="dropdown-item text-secondary" href="#"><i class="bi bi-person"></i> View Profile</a></li>

@@ -2,7 +2,7 @@ import Header from "./Components/Pages/Header";
 import Sidebar from "./Components/Pages/Sidebar";
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Dashboard from "./Components/Dashboard/Dashboard";
-import Projects from "./Components/Projects/Porjects";
+import Projects from "./Components/Projects/Projects";
 import Team from "./Components/Teams/Teams";
 
 
